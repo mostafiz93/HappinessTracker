@@ -1,0 +1,36 @@
+.side-bar {
+  width: 200px;
+  height: 600px;
+  background-color: #f8c93b;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  margin-top: 3px;
+  border-top-right-radius: 7px;
+}
+
+.side-bar-tittle {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 10px;
+}
+
+.under-title-line {
+  width: 75%;
+  height: 1px;
+  margin-left: 12%;
+  border: 1px solid black;
+}
+
+.content {
+  text-align: center;
+  margin: 0px auto;
+}
+.content ul {
+  list-style-type: none;
+}
+
+.content ul li {
+  margin-top: 10px;
+}
