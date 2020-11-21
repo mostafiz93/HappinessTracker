@@ -1,0 +1,13 @@
+.content {
+  margin: 0px auto;
+}
+
+.options {
+  margin: 0px auto;
+}
+
+.options div {
+  float: left;
+  text-align: center;
+  margin-left: 1rem;
+}
