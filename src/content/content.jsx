@@ -13,7 +13,7 @@ class Content extends Component {
         return ( 
             <div className="content">
                 <div className="heading">
-                    <h1>Be happy with what you have.</h1><h1>Be excited about what you want.</h1>
+                    <p>How are you feeling now?</p>
                 </div>
                 <div className="options">
                     <div className="angry">
@@ -40,6 +40,9 @@ class Content extends Component {
                         <img src={Laughing} alt="very Happy"/>
                         <p>Very Happy</p>
                     </div>
+                </div>
+                <div className="submit">
+                    <button>Submit</button>
                 </div>
             </div>
          );

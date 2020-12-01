@@ -1,18 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App'
 import './index.css';
 import 'semantic-ui-css/semantic.min.css';
-import TopBar from './topBar/topBar'
 import * as serviceWorker from './serviceWorker';
-import SideBar from './sideBar/sideBar'
-import Content from './content/content'
 
 ReactDOM.render(
 	<React.StrictMode>
-		<TopBar />
-		<SideBar />
-		<Content />
-	</React.StrictMode>,
+		<App/>
+	</React.StrictMode>
+	,
 	document.getElementById('root')
 );
 
