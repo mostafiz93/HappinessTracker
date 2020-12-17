@@ -12,10 +12,10 @@ class TopBar extends Component {
         return ( 
             <div className="top-bar">
                 <div className="logo">
-                    <img src={Logo} alt="Be happy Logo"/>
+                    <img src={Logo} alt="Logo" className="logo-picture"/>
                 </div>
                 <div className="content">
-                    <img src={Quote} alt="Quotation"/>
+                    <img src={Quote} alt="Quotation" className="content-picture"/>
                 </div>
                 <div className="login-signup">
                     <div className="sign-up">

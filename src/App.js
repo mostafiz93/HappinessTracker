@@ -1,25 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+// import { Sidebar } from 'semantic-ui-react';
 import './App.css';
+import TopBar from './topBar/topBar'
+import SideBar from './sideBar/sideBar'
+import Content from './content/content'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="main">
+      <TopBar className="first"/>
+      <SideBar className="second"/>
+      <Content className="third"/>
+	  </div>
   );
 }
 
