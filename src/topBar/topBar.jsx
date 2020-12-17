@@ -1,7 +1,11 @@
 import React, {Component} from 'react'
+//import ReactDom from 'react-dom'
+import {Link} from 'react-router'
 import Logo from '../images/logo.JPG'
 import Quote from '../images/quote.JPG'
 import './topBar.css'
+import Login from '../login/login'
+import SignUp from '../signUp/signUp'
 
 class TopBar extends Component {
     render() { 
@@ -15,10 +19,10 @@ class TopBar extends Component {
                 </div>
                 <div className="login-signup">
                     <div className="sign-up">
-                        <a href="#">sign up</a>
+                        <a href={SignUp}>sign up</a>
                     </div>
                     <div className="log-in">
-                        <a href="#">log in</a>
+                        <Link to={Login}>Login</Link>
                     </div>
                 </div>
             </div>

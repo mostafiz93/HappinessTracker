@@ -1,0 +1,25 @@
+.wrapper {
+    margin: 0px auto;
+    text-align: center;
+    width: 350px;
+    height: 430px;
+    border: 1px inset rgb(201, 192, 192);
+    box-shadow: 1px 2px 5px 4px lightgray;
+  }
+  
+  input {
+    margin: 8px;
+    height: 25px;
+  }
+  
+  .register-button {
+    background-color: #2992da;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    color: #ffffff;
+  }
+  
